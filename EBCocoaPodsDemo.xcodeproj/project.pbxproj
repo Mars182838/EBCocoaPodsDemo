@@ -15,6 +15,8 @@
 		2F8CA5F71C7D88CE00F06A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8CA5F51C7D88CE00F06A24 /* LaunchScreen.storyboard */; };
 		2F8CA6021C7D88CE00F06A24 /* EBCocoaPodsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8CA6011C7D88CE00F06A24 /* EBCocoaPodsDemoTests.m */; };
 		2F8CA60D1C7D88CE00F06A24 /* EBCocoaPodsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8CA60C1C7D88CE00F06A24 /* EBCocoaPodsDemoUITests.m */; };
+		2FBE8AA31C7EA4BB00C8DD06 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE8AA11C7EA4BB00C8DD06 /* FirstViewController.m */; };
+		2FBE8AA41C7EA4BB00C8DD06 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBE8AA21C7EA4BB00C8DD06 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		2F8CA6081C7D88CE00F06A24 /* EBCocoaPodsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EBCocoaPodsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8CA60C1C7D88CE00F06A24 /* EBCocoaPodsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBCocoaPodsDemoUITests.m; sourceTree = "<group>"; };
 		2F8CA60E1C7D88CE00F06A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBE8AA01C7EA4BB00C8DD06 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2FBE8AA11C7EA4BB00C8DD06 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2FBE8AA21C7EA4BB00C8DD06 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		2F8CA5E61C7D88CE00F06A24 /* EBCocoaPodsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2FBE8A9F1C7EA4A900C8DD06 /* EBCocoaPodsController */,
 				2F8CA5EA1C7D88CE00F06A24 /* AppDelegate.h */,
 				2F8CA5EB1C7D88CE00F06A24 /* AppDelegate.m */,
 				2F8CA5ED1C7D88CE00F06A24 /* ViewController.h */,
@@ -138,6 +144,16 @@
 				2F8CA60E1C7D88CE00F06A24 /* Info.plist */,
 			);
 			path = EBCocoaPodsDemoUITests;
+			sourceTree = "<group>";
+		};
+		2FBE8A9F1C7EA4A900C8DD06 /* EBCocoaPodsController */ = {
+			isa = PBXGroup;
+			children = (
+				2FBE8AA01C7EA4BB00C8DD06 /* FirstViewController.h */,
+				2FBE8AA11C7EA4BB00C8DD06 /* FirstViewController.m */,
+				2FBE8AA21C7EA4BB00C8DD06 /* FirstViewController.xib */,
+			);
+			path = EBCocoaPodsController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +262,7 @@
 				2F8CA5F71C7D88CE00F06A24 /* LaunchScreen.storyboard in Resources */,
 				2F8CA5F41C7D88CE00F06A24 /* Assets.xcassets in Resources */,
 				2F8CA5F21C7D88CE00F06A24 /* Main.storyboard in Resources */,
+				2FBE8AA41C7EA4BB00C8DD06 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +290,7 @@
 				2F8CA5EF1C7D88CE00F06A24 /* ViewController.m in Sources */,
 				2F8CA5EC1C7D88CE00F06A24 /* AppDelegate.m in Sources */,
 				2F8CA5E91C7D88CE00F06A24 /* main.m in Sources */,
+				2FBE8AA31C7EA4BB00C8DD06 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +516,7 @@
 				2F8CA6131C7D88CE00F06A24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F8CA6141C7D88CE00F06A24 /* Build configuration list for PBXNativeTarget "EBCocoaPodsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				2F8CA6161C7D88CE00F06A24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F8CA6171C7D88CE00F06A24 /* Build configuration list for PBXNativeTarget "EBCocoaPodsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				2F8CA6191C7D88CE00F06A24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
